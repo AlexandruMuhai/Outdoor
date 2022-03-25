@@ -42,5 +42,86 @@
 .h1{
   font-size: rem(36);
   font-weight: normal;
-  line-height: 43;
+  line-height: 43px;
+}
+.banner{
+  height:640px;
+  background-image: url('../images/img/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__block{
+  padding-top:218px;
+  p{
+    margin:0 0;
+  }
+}
+.banner__subtitle{
+  color:$yellow;
+  font-size: rem(14);
+}
+.banner__title{
+  margin:0 ;
+  max-width: 500px;
+  color:white;
+  line-height: 57px;
+  font-size: rem(48);
+}
+.banner__text{
+  margin-top:12px;
+  max-width: 500px;
+  color: white;
+  font-size: rem(17);
+  color:#CACCD1;
+}
+.subtitle{
+  margin:0 0;
+  color:$yellow;
+  font-size: rem(14);
+}
+.round{
+  position: absolute;
+}
+.round1{
+  top:691px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.round2{
+  top:1267px;
+  left: 8px;
+}
+.about{
+  margin-top:100px;
+}
+.about-wrapper{
+  display:flex;
+  justify-content: space-between;
+  gap:30px;
+  align-items: center;
+}
+.about__info{
+  max-width: 400px;
+}
+.about__title{
+  font-family: $font2;
+  font-size: rem(36);
+  font-weight: normal;
+  line-height: 43px;
+}
+.about__text{
+  margin-top:8px;
+  margin-bottom:19px;
+}
+.about__link{
+  font-size: rem(15);
+  display:flex;
+  gap:4px;
+}
+.about__image{
+  img{
+    width: 576px;
+    height: 576px;
+  }
 }

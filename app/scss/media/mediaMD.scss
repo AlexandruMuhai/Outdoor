@@ -1,9 +1,24 @@
 @media (max-width: $md){
   .header-wrapper{
     flex-direction: column;
+    gap:8px;
   }
   .header__nav{
     gap:7px;
     flex-wrap: wrap;
+    justify-content: center;
+    li:last-child{
+      padding-left: 0;
+    }
+  }
+  .banner__title{
+    font-size: rem(24);
+    line-height: 36px;
+  }
+  .about__image{
+    img{
+      width: 425px;
+      height: 425px;
+    }
   }
 }
