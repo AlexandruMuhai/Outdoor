@@ -1,3 +1,9 @@
 @media (max-width: $md){
-
+  .header-wrapper{
+    flex-direction: column;
+  }
+  .header__nav{
+    gap:7px;
+    flex-wrap: wrap;
+  }
 }

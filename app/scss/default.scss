@@ -5,3 +5,10 @@ body{
   font-size:$size;
   color:$color;
 }
+ul,li,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:$color;
+}
