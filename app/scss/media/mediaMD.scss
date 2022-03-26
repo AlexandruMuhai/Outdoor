@@ -21,4 +21,18 @@
       height: 425px;
     }
   }
+  .ofert__item,.ofert__image{
+    width: 400px;
+  }
+  .ofert__image{
+    height: 200px;
+  }
+  .round5,.round6{
+    display: none;
+  }
+  .recommendations__img,.recommendations__image{
+    width: 400px;
+    height: 400px;
+  }
+
 }

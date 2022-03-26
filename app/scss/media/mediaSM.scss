@@ -12,4 +12,23 @@
     width: 275px;
     height: 400px;
   }
+  .sea__navbar{
+    ul{
+      flex-direction: column;
+    }
+  }
+  .ofert__item,.ofert__image{
+    width: 300px;
+  }
+  .ofert__image{
+    height: 150px;
+  }
+  .recommendations__img,.recommendations__image{
+    width: 275px;
+    height: 275px;
+  }
+  .recommendations__info{
+    width: 275px;
+  }
+
 }

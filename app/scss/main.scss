@@ -221,4 +221,154 @@
 }
 .meet__item-text{
   max-width: 300px;
+}.sea{
+  width: 100%;
+  height: 600px;
+  background-image:url("../images/img/sea.png") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   position: relative;
+   margin-top:100px;
+}
+
+.sea__navbar{
+  position: absolute;
+  bottom:40px;
+  right: 40px;
+  ul{
+    color: white;
+    font-size: rem(12);
+    display: flex;
+    gap:20px;
+    padding:16px 22px;
+    border-radius: 16px;
+    background-color: #292C32;
+    li{
+      display: flex;
+      gap:8px;
+    }
+  }
+}
+.check{
+  min-height: 393px;
+  text-align: center;
+  background-color:#375C58 ;
+  background-image:url("../images/img/round_backround.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.check-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 393px;
+}
+.check__subtitle{
+  margin-bottom: 5px;
+  color: white;
+  font-size: (14);
+}
+.check__title{
+  color:$yellow;
+  margin-bottom: 17px;
+}
+.check__text{
+  max-width: 538px;
+}
+.check__button{
+  padding:14px 18px;
+  background-color: white;
+  color: #575445;
+  border-radius: 6px;
+  margin-top: 20px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.oferts{
+  margin-top: 100px;
+}
+.oferts__header{
+  max-width: 538px;
+  margin-bottom:20px;
+}
+.ofert__image{
+  width: 568px;
+  height: 319px;
+  border-radius:20px;
+  margin-bottom: 20px;
+}
+.ofert__item{
+  width: 568px;
+}
+.ofert__item-title{
+  font-size: rem(20);
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.ofert__user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ofert__user-date{
+  color: #6F7278;
+  font-size: rem(18);
+}
+.ofer__user-info{
+  display: flex;
+  gap:12px;
+}
+.ofert__user-img{
+  height: 50px;
+  width: 50px;
+}
+.ofert__user-name{
+  font-size: rem(18);
+  p:last-child{
+    color: $yellow;
+  }
+}
+.oferts__items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:30px;
+}
+.recommendations{
+  margin-top: 200px;
+}
+.recommendations-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:30px;
+}
+.recommendations__info{
+  width: 400px;
+}
+.recommendations__image,.recommendations__img{
+  width: 576px;
+  height: 576px;
+}
+.recommendations__image{
+  position: relative;
+}
+.recommendations__text{
+  margin-top:7px;
+  margin-bottom:20px;
+}
+.round5{
+  top:-128px;
+  right: -22%;
+  z-index: -1;
+}
+.round6{
+  left: -22%;
+  bottom:-128px;
 }
